@@ -35,6 +35,9 @@ body {
     padding: 25spx;
   }
 
+  a {
+    text-decoration: none;
+  }
 
   a:hover, a:active {
     font-size: 120%;
@@ -49,4 +52,8 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  h1:hover, h3:hover, h2:hover, b:hover {
+    text-decoration: underline;
   }
