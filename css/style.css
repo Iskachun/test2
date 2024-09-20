@@ -40,8 +40,8 @@ body {
   }
 
   a:hover, a:active {
-    font-size: 120%;
     color: purple;
+    text-decoration: underline;
   }
 
   a:visited {
