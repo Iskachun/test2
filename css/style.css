@@ -54,6 +54,27 @@ body {
     padding: 0;
   }
 
-  h1:hover, h3:hover, h2:hover, b:hover {
+  h1:hover, h3:hover, h2:hover, b:hover, h4:hover {
     text-decoration: underline;
   }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .item {
+    position: relative;
+    display: inline-block;
+  }
+
+  .hover-text {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
